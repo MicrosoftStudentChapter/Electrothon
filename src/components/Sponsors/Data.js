@@ -100,13 +100,6 @@ export const data = [
         id: "gold_0",
       },
       {
-        sponsorName: "Coding Minutes",
-        webp: "sponsors/gold/webp/CodingMinutes.webp",
-        src: "sponsors/gold/CodingMinutes.png",
-        url: "https://www.codingminutes.com/",
-        id: "gold_1",
-      },
-      {
         sponsorName: "1Password",
         webp: "sponsors/gold/webp/1password.webp",
         src: "sponsors/gold/1password.png",
