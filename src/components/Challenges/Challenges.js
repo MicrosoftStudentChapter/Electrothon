@@ -10,12 +10,12 @@ const Challenges = () => {
       className="relative overflow-hidden mt-12 container-theme p-6"
       data-aos="fade"
       data-aos-delay="50"
-      data-aos-duration="500"
+      data-aos-duration="1000"
       data-aos-easing="ease-in-out-cubic"
     >
       <div className="container mx-auto">
-        <h1 className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme">
-          Challenges
+        <h1 className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme" style={{color:"#99FEFF",fontWeight:"600"}}>
+          Partner Challenges
         </h1>
         <div className="grid md:grid-cols-2 grid-cols-1 content-theme">
           {challengesData.map((challenge, index) => {
@@ -37,16 +37,18 @@ const Challenges = () => {
                 <div className="lg:w-3/5 flex flex-col justify-center">
                   <div className="px-3">
                     <ul className={challenge.list}>
-                      {challenge.desc.map((element, index) => {
-                        return (
-                          <li
-                            className="md:pt-1 md:tracking-tighter"
-                            key={index}
-                          >
-                            {element}
-                          </li>
-                        );
-                      })}
+                      <p className="">
+                        {challenge.desc.map((element, index) => {
+                          return (
+                            <li
+                              className="md:pt-1 md:tracking-tighter"
+                              key={index}
+                            >
+                              {element}
+                            </li>
+                          );
+                        })}
+                      </p>
                     </ul>
                     <p>{challenge.addon}</p>
                     <div className="flex flex-wrap justify-between md:items-end items-center mt-4 md:mt-2">

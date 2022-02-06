@@ -1,32 +1,28 @@
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./components/UI/Header/Header";
+import Footer from "./components/UI/Footer/Footer";
 import Intro from "./components/Hero/Hero";
 // import Content from "./components/UI/Content/Content";
 import About from "./components/About/About";
+import AboutMakeathon from "./components/About Makeathon/AboutMakeathon";
+import FAQ from "./components/FAQs/faq";
 // import Judges from "./components/Judges/judges";
-import Milestone from "./components/Milestone/milestone";
+// import Milestone from "./components/Milestone/milestone";
+import Prizes from "./components/UI/Prizes/PrizeCarousel";
+// import ProbStatements from "./components/Prob_statements/problems";
+import Projects from "./components/Themes/Themes";
+import Schedule from "./components/Schedule/schedule";
+import Sponsors from "./components/Sponsors/Sponsors";
 // import Workshop from "./components/Workshop/Workshop";
 // import Speakers from "./components/Speakers/Speakers";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+// import Challenges from "./components/Challenges/Challenges";
+import RingLoader from "react-spinners/RingLoader";
+//import MediaIcons from "./components/UI/MediaIcons/mediaicons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import randomColor from "randomcolor";
-import BackgroundStatic from "./components/UI/Background/bgstatic";
+// import BackgroundStatic from "./components/UI/Background/bgstatic";
 import "./mlh.css";
-
-const Projects = React.lazy(() => import("./components/Themes/Themes"));
-const Schedule = React.lazy(() => import("./components/Schedule/schedule"));
-const Prizes = React.lazy(() => import("./components/Prizes/PrizeCarousel"));
-const Challenges = React.lazy(() =>
-  import("./components/Challenges/Challenges")
-);
-const Sponsors = React.lazy(() => import("./components/Sponsors/Sponsors"));
-const MediaIcons = React.lazy(() =>
-  import("./components/MediaIcons/mediaicons")
-);
-const FAQ = React.lazy(() => import("./components/FAQs/faq"));
-const Footer = React.lazy(() => import("./components/UI/Footer/Footer"));
-
 AOS.init({
   once: true,
 });
@@ -46,24 +42,20 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 2000);
   }, []);
   return (
     <React.Fragment>
       {loading ? (
         <div
           className="flex justify-center nav-theme items-center w-full h-screen bg-cover"
-          // style={{
-          //   backgroundImage: `url("./loading_art.jpg")`,
-          //   backgroundColor: "rgba(255,255,255,0.7)",
-          //   backgroundBlendMode: "lighten",
-          // }}
         >
-          <ClimbingBoxLoader color={colour} loading={loading} size={25} />
+          <RingLoader color={colour} loading={loading} size={125} />
         </div>
       ) : (
         <React.Fragment>
-          <BackgroundStatic />
+          <div className="bg-theme"></div>
+          {/* <BackgroundStatic /> */}
           <Header />
           <a
             id="mlh-trust-badge"
@@ -73,42 +65,37 @@ const App = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg"
+              src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-black.svg"
               alt="Major League Hacking 2022 Hackathon Season"
               className="w-full"
             />
           </a>
-
+        
           <div className="sm:mx-20">
             <Intro />
             <div className="container mx-auto px-4 text-justify">
               <section id="general-content">
                 <About />
-                <Milestone />
+                <AboutMakeathon />
+                {/*<Milestone />*/}
                 {/* <Content /> */}
               </section>
               {/* <Judges /> */}
               {/* <Speakers/> */}
-              <Suspense fallback={<div>Loading...</div>}>
-                <Schedule />
-                <Projects />
-                {/* <ProbStatements /> */}
-                <Prizes />
-                <Challenges />
-              </Suspense>
+              <Schedule />
+              <Projects />
+              {/* <ProbStatements /> */}
+              <Prizes />
+              {/* <Challenges /> */}
               {/* <Workshop /> */}
               {/* <Judges /> */}
-              <Suspense fallback={<div>Loading...</div>}>
-                <Sponsors />
-                <MediaIcons />
-                {/* <Speakers/> */}
-                <FAQ />
-              </Suspense>
+              <Sponsors />
+              {/* <MediaIcons /> */}
+              {/* <Speakers/> */}
+              <FAQ />
             </div>
           </div>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Footer />
-          </Suspense>
+          <Footer />
         </React.Fragment>
       )}
       {/* {AddLibrary()} */}

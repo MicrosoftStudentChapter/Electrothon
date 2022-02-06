@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
 import navItems from "./Nav_tems";
-import BackTopBtn from "./BacktoTop/GoTop";
+import BackTopBtn from "../BacktoTop/GoTop";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -88,11 +88,11 @@ const Nav = () => {
           {/* <div className="hidden md:flex py-4 rotate-90">
             <div className=" text-gray-200 text-2xl font-black">
             <a
-            href="https://specnith.com/"
+            href="https://mlsctiet.co.in/"
             target="_blank"
             rel="noreferrer noopener"
             >
-            {/* <img src="spec_logo.png" alt="Logo"  className="h-8 w-8 mr-2" /> */}
+            {/* <img src="mlsc_logo.png" alt="Logo"  className="h-8 w-8 mr-2" /> */}
           {/* SPEC
             </a>
             </div>
@@ -147,7 +147,7 @@ const Nav = () => {
             onClick={() => setIsOpen((prevState) => !prevState)}
           >
             <div className="flex w-full items-center justify-center h-20 shadow-md">
-              <h1 className="text-3xl uppercase text-white">SPEC</h1>
+              <h1 className="text-3xl uppercase text-white">MLSC</h1>
             </div>
 
             {navItems.map((item) => (

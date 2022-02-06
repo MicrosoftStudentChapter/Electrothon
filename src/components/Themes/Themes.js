@@ -19,6 +19,7 @@ const slider = (
   >
     {themeArray.map((e, index) => {
       return (
+        
         <SwiperSlide key={index}>
           <div
             className={`grid grid-cols-1 md:grid-cols-5 md:gap-8 w-full themes-image  theme-block${
@@ -27,12 +28,13 @@ const slider = (
             key={index}
           >
             <div className="md:col-span-2 track-image flex items-center justify-center">
+        
               <picture className="m-auto">
                 <source srcSet={"3d/webp/" + e.webp} type="image/webp" />
                 <img
                   src={"3d/" + e.image}
                   className="object-contain w-5/6 m-auto"
-                  alt="Electrothon Logo"
+                  alt="Theme"
                 />
               </picture>
             </div>

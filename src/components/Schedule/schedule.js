@@ -21,24 +21,24 @@ export default function Schedule() {
   });
   const array = [
     {
-      title: "Registration Begins",
-      para: "Registration opens up for students to register with their respective teams and project ideas for Electrothon.",
-      date: "1st January 2022",
+      title: "MAKE4THON Registration",
+      para: "Registration open up for students on Devfolio.",
+      date: "26th January-3rd March 2022",
     },
     {
-      title: "Last date of Registration",
-      para: "Registered teams submit a brief proposal of their project ideas, describing the general workflow, complexity, design, and possible applications.",
-      date: "10th February 2022",
+      title: "Bootcamp",
+      para: "Knowldgeable week filled with speaker sessions.",
+      date: "28th February-5th March 2022",
     },
     {
-      title: "Electrothon Main Event",
-      para: "Electrothon will be a two-day event consisting of various guest lectures, workshops, and project evaluation.",
-      date: "19th - 20th February 2022",
+      title: "24 Hour Hackathon",
+      para: "MAKE4THON will be a 24 hour event consisting of a Hackathon with multiple checkpoints in between.",
+      date: "5th-6th March 2022",
     },
     {
-      title: "Result Declaration",
-      para: "The ultimate genius will be revealed by our Judging Panel on 22nd February 2022 through our social media handles.",
-      date: "22nd Feburary 2022",
+      title: "Result Declared",
+      para: "The ultimate hack will be revealed by our judging panel on 6th March, 2022 and the results will be announced on the Discord server and also be mailed to you.",
+      date: "6th March 2022",
     },
   ];
   const LeftCard = (props) => {
@@ -64,7 +64,7 @@ export default function Schedule() {
           >
             {props.props.title}
           </span>
-          <p className="text-sm md:text-base leading-snug text-black-50 p-4 w-full">
+          <p className="text-sm md:text-base leading-snug text-black-50 text-opacity-100 p-4">
             {props.props.para}
           </p>
         </div>
@@ -137,7 +137,7 @@ export default function Schedule() {
       className="py-2 container-theme pl-6  mt-2 md:py-8"
       data-aos="fade"
       data-aos-delay="50"
-      data-aos-duration="500"
+      data-aos-duration="1000"
       data-aos-easing="ease-in-out-cubic"
     >
       <div className="container mx-auto flex flex-col items-start md:flex-row">
@@ -148,13 +148,13 @@ export default function Schedule() {
           data-aos-duration="1500"
           data-aos-easing="ease-in-out-cubic"
         >
-          <p className="text-blue-500 uppercase tracking-loose">Timeline</p>
-          <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 header-theme">
-            Working Process of Fest
+          {/* <p className="text-blue-500 uppercase tracking-loose">Timeline</p> */}
+          <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 header-theme" style={{color:"#30dc86",fontWeight:"600"}}>
+            MAKE4THON TIMELINE
           </p>
           <p className="text-sm md:text-base text-black-50 mb-4 content-theme">
-            Here’s your guide to the Electrothon 4.0 process. Go through all the
-            steps to know the exact process of the fest.
+            Here’s your guide to the MAKE4THON. Go through all the
+            cards to know the exact schedule of the event.
           </p>
           <span className="text-xl text-blue-500">
             <FontAwesomeIcon
@@ -162,7 +162,7 @@ export default function Schedule() {
               icon={faMapMarkerAlt}
               fixedWidth
             />{" "}
-            ONLINE
+            HYBRID MODE
           </span>
         </div>
         <div className="ml-0 md:ml-12 lg:w-2/3">
@@ -228,12 +228,12 @@ export default function Schedule() {
                 data-aos-easing="ease-in-out-cubic"
               >
                 <picture>
-                  <source srcSet="rocket.webp" type="image/webp" />
+                  <source srcSet="miss_minutes.png" type="image/webp" />
                   <img
                     className="mx-auto -mt-36 md:-mt-36"
-                    src="rocket.png"
+                    src="miss_minutes.png"
                     alt="result_img"
-                    style={{ width: "25rem" }}
+                    style={{ width: "25rem", paddingTop: "5rem" }}
                   />
                 </picture>
               </div>

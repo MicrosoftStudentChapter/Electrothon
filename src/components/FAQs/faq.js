@@ -45,14 +45,14 @@ export default function faq() {
       className="relative overflow-hidden mt-10 lg:px-8 px-2 py-6 container-theme"
       data-aos="fade"
       data-aos-delay="50"
-      data-aos-duration="500"
+      data-aos-duration="1000"
       data-aos-easing="ease-in-out-cubic"
     >
       <h1
         className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme pb-6"
-        style={{ textAlign: "center" }}
+        style={{ textAlign: "center",color:"#30dc86",fontWeight:"600" }}
       >
-        Commonly Asked Questions
+        Frequently Asked Questions
       </h1>
       <div className="lg:w-3/5 mx-auto">
         <div

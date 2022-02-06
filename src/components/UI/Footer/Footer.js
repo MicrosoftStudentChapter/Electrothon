@@ -10,23 +10,19 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
   const BottomFooter = () => {
+    
     return (
-      <React.Fragment>
       <div className="md:flex justify-center gap-5 lg:gap-40 mt-5 font-sans">
         <div className=" md:visible flex justify-center mb-2">
           <a
-            href="https://specnith.com/"
+            href="https://mlsctiet.co.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm md:text-lg md:font-bold text-white hover:text-gray-300 "
           >
             <picture>
-              <source srcSet="spec_logo.webp" type="image/webp" />
-              <img
-                className="w-8 md:w-16"
-                src="spec_logo.png"
-                alt="spec_logo"
-              />
+              <source srcSet="mlsc_logo.webp" type="image/webp" />
+              <img className="h-10 md:h-28" src="mlsc_logo.png" alt="mlsc_logo" />
             </picture>
           </a>
         </div>
@@ -37,7 +33,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1P_-npMEWQtOUAWnuJH66aK5h7sCxSgRy/view?usp=sharing"
+                href="https://tinyurl.com/MarketingProposalMakeathon"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-center md:justify-start text-sm md:md:text-sm text-gray-400 pb-2 hover:text-gray-300"
@@ -64,18 +60,18 @@ export default function Footer() {
             </li>
             <li className=" md:text-sm flex justify-center md:justify-start pb-2 text-gray-400 hover:text-gray-300">
               <a
-                href="https://www.google.com/maps/place/NIT+Hamirpur/@31.6750134,76.5271587,13z/data=!4m8!1m2!2m1!1sNIT+Hamirpur,+Himachal+Pradesh,+India!3m4!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.708371!4d76.527356"
+                href="https://www.google.com/maps/place/Thapar+Institute+of+Engineering+And+Technology/@30.3559428,76.366214,17z/data=!4m5!3m4!1s0x391028ab86533db5:0x93cc1f72eae1c9a8!8m2!3d30.3564241!4d76.3647015"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                NIT Hamirpur
+                Thapar Institute of Engineering and Technology
               </a>
             </li>
             <li className=" md:text-sm flex justify-center md:justify-start pb-2 text-gray-400">
-              Hamirpur, Himachal Pradesh, India
+              Patiala, Punjab, India
             </li>
             <li className=" md:text-sm flex justify-center md:justify-start text-gray-400">
-              177005
+              147004
             </li>
           </ul>
         </div>
@@ -86,7 +82,7 @@ export default function Footer() {
 
           <div className="justify-center flex space-x-2 md:space-x-5 mt-1 md:mt-1 opacity-80 mb-10">
             <a
-              href="https://discord.gg/cjMMRs7tHs"
+              href="https://discord.gg/hV5WtcF"
               rel="noreferrer noopenor"
               target="_blank"
             >
@@ -96,7 +92,7 @@ export default function Footer() {
               />
             </a>
             <a
-              href="https://www.facebook.com/spec.ece/"
+              href="https://m.facebook.com/mlsctiet/"
               rel="noreferrer noopenor"
               target="_blank"
             >
@@ -106,7 +102,7 @@ export default function Footer() {
               />
             </a>
             <a
-              href="https://twitter.com/SPEC__NITH"
+              href="https://twitter.com/mlsc_tiet"
               rel="noreferrer noopenor"
               target="_blank"
             >
@@ -116,7 +112,7 @@ export default function Footer() {
               />
             </a>
             <a
-              href="https://instagram.com/s.p.e.c_nith?utm_source=ig_profile_share&amp;igshid=1dd01jvv7xk83"
+              href="https://instagram.com/mlsc_tiet/"
               rel="noreferrer noopenor"
               target="_blank"
             >
@@ -126,7 +122,7 @@ export default function Footer() {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/s-p-e-c-nith-40214b197/"
+              href="https://www.linkedin.com/company/microsoft-learn-student-chapter"
               rel="noreferrer noopenor"
               target="_blank"
             >
@@ -138,12 +134,34 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-sm flex justify-center pb-2 text-gray-400">© 2022, SPEC NITH</div>
-      </React.Fragment>
     );
   };
+  const [name,setName]=React.useState("");
+  const [email,setEmail]=React.useState("");
+  const [message,setMessage]=React.useState("");
 
-  const [state, handleSubmit] = useForm("mzbodbrg");
+  const submitButton = ()=>{
+    const data = {name,email,message};
+    console.log(data);
+    if(name.trim()==="" || email.trim()==="" || message.trim()===""){
+      alert("Fill all fields");
+      return;
+    }
+
+  fetch('https://mlscmailbackend.herokuapp.com/mail', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify(data),
+})
+.then(response => alert("Successfully sent"))
+.catch((error) => {
+  console.error('Error:', error);
+});
+  }
+
+  const [state] = useForm("mzbodbrg");
   if (state.succeeded) {
     return (
       <footer
@@ -155,26 +173,26 @@ export default function Footer() {
           <div className="max-w-screen-xl md:mt-4 px-8 grid gap-x-24 gap-y-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-24 md:pt-16 pb:10 md:pb-20 mx-auto text-gray-900">
             <div className="flex flex-col justify-around">
               <div>
-                <h2 className="text-4xl lg:text-5xl font-bold leading-tight header-theme">
+                <h2 className="text-4xl lg:text-5xl font-bold leading-tight header-theme" style={{color:"#99FEFF"}}>
                   Lets talk about everything!
                 </h2>
                 <div className="text-gray-300 mt-8">
                   Hate forms? Send us an email at{" "}
                   <a
                     className="underline hover:text-gray-300"
-                    href="mailto:spec@nith.ac.in"
+                    href="mailto:msc@thapar.edu"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    spec@nith.ac.in
+                    msc@thapar.edu
                   </a>{" "}
                   instead.
                 </div>
               </div>
               <picture>
-                <source srcSet="email-contact.webp" type="image/webp" />
+                <source srcSet="webp/email-conta.webp" type="image/webp" />
                 <img
-                  src="email-contact.png"
+                  src="email-conta.png"
                   className="hidden md:block "
                   alt="imageContact"
                 />
@@ -193,6 +211,8 @@ export default function Footer() {
       </footer>
     );
   }
+
+
 
   return (
     <footer
@@ -215,26 +235,23 @@ export default function Footer() {
                 Hate forms? Send us an email at{" "}
                 <a
                   className="underline hover:text-gray-300"
-                  href="mailto:spec@nith.ac.in"
+                  href="mailto:msc@thapar.edu"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  spec@nith.ac.in
+                  msc@thapar.edu
                 </a>{" "}
                 instead.
               </div>
             </div>
-            <picture>
-              <source srcSet="email-contact.webp" type="image/webp" />
-              <img
-                src="email-contact.png"
-                className="hidden md:block "
-                alt="imageContact"
-              />
-            </picture>
+            <img
+              src="email-conta.png"
+              className="hidden md:block "
+              alt="imageContact"
+            />
           </div>
           <div>
-            <form onSubmit={handleSubmit}>
+            <form>
               <div>
                 <label
                   className="uppercase text-sm text-white font-bold"
@@ -259,6 +276,7 @@ export default function Footer() {
                     placeholder="Name"
                     name="Name"
                     id="Name"
+                    onChange={(e)=>setName(e.target.value)}
                   />
                 </div>
               </div>
@@ -288,6 +306,7 @@ export default function Footer() {
                     placeholder="Email"
                     name="Sender"
                     id="Sender"
+                    onChange={(e)=>setEmail(e.target.value)}
                   />
                 </div>
               </div>
@@ -301,13 +320,14 @@ export default function Footer() {
                   name="Message"
                   placeholder="Message"
                   id="Message"
+                  onChange={(e)=>setMessage(e.target.value)}
                 ></textarea>
               </div>
               <div className="mt-8">
                 <button
                   className="uppercase text-sm font-bold tracking-wide bg-gray-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline hover:bg-gray-700 bg-opacity-40"
-                  type="submit"
-                  disabled={state.submitting}
+                  type="button"
+                  onClick={submitButton}
                 >
                   Send Message
                 </button>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 // import { Pagination, Autoplay } from "swiper";
 // import slides from "./Carousel.json";
-import Timer from "./CountDown/countDown";
+import Timer from "../UI/CountDown/countDown";
 
 // Import Styles
 import "swiper/swiper.min.css";
@@ -44,14 +44,14 @@ export default function Introduction() {
     >
       <div className=" hidden md:block fixed top-0 left-0 z-10 m-4">
         <a
-          href="https://specnith.com/"
+          href="https://mlsctiet.co.in/"
           target="_blank"
           rel="noreferrer noopenor"
         >
-          <picture>
-            <source srcSet="spec_logo.webp" type="image/webp" />
-            <img src="spec_logo.png" className="h-auto w-32" alt="SPEC Logo" />
-          </picture>
+          {/* <picture>
+            <source srcSet="mkthn.webp" type="image/webp" />
+            <img src="mkthn.png" className="h-auto w-32" alt="MLSC Logo" />
+          </picture> */}
         </a>
       </div>
       <div
@@ -65,49 +65,65 @@ export default function Introduction() {
           <main className="mt-2 mx-auto px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 lg:py-8 xl:mt-28">
             <div className="text-center lg:text-left ">
               <div className="flex justify-center md:hidden">
-                <a
-                  href="https://specnith.com/"
+                {/* <a
+                  href="https://mlsctiet.co.in/"
                   target="_blank"
                   rel="noreferrer noopenor"
                 >
                   <picture>
-                    <source srcSet="spec_logo.webp" type="image/webp" />
+                    <source srcSet="mkthn.webp" type="image/webp" />
                     <img
-                      src="spec_logo.png"
-                      className="h-auto w-32"
-                      alt="SPEC Logo"
+                      src="mkthn.png"
+                      className="h-auto w-50"
+                      alt="Makeathon logo"
+                    />
+                  </picture>
+                </a> */}
+              </div>
+              <h1 className="text-4xl md:tracking-tight text-center md:text-left sm:text-5xl md:text-7xl">
+                
+                <span className="xl:inline font-extrabold header-theme"></span>
+                {/* <span className="xl:inline font-extrabold header-theme" style={{color:"#FFC600"}}>
+                  Makeathon
+                </span> */}
+                <a
+                  href="https://mlsctiet.co.in/"
+                  target="_blank"
+                  rel="noreferrer noopenor"
+                >
+                  <picture>
+                    <source srcSet="mkthn.webp" type="image/webp" />
+                    <img
+                      src="mkthn.png"
+                      className="h-auto w-50"
+                      alt="Makeathon logo"
                     />
                   </picture>
                 </a>
-              </div>
-              <h1 className="text-4xl md:tracking-tight text-center md:text-left sm:text-5xl md:text-7xl">
-                <span className="xl:inline font-extrabold header-theme"></span>
-                <span className="xl:inline font-extrabold header-theme">
-                  Electrothon
-                </span>
-                <span className="ml-5 md:ml-3 xl:inline font-extrabold header-theme">
+                {/* <span className="ml-5 md:ml-3 xl:inline font-extrabold header-theme" style={{color:"#FFC600"}}>
                   4.0
                 </span>
-                <span className="block text-pink-400 text-normal font-medium md:mt-0 mt-1.5">
+                <span className="block text-normal font-medium md:mt-0 mt-1.5" style={{color:"#FFC600"}}>
                   2k22
-                </span>
-                <span className="block text-white text-xl tracking-wider mt-2">
-                  19th-20th February, 2022
+                </span> */}
+                <span className="block text-white text-xl tracking-wider mt-2" style={{color:"#FFC600"}}>
+                  5th-6th March, 2022
+                  <br />
+                  <p className="text-gray-500 md:text-gray-400 sm:text-gray-400">
+                   You code your own destiny now.
+                  </p>
                 </span>
               </h1>
-              <p className="mt-6 text-base text-center md:text-left text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                SEARCH | PLAN | ENGAGE | CREATE
-              </p>
-              <div className="mt-5 sm:mt-8 sm:flex justify-center md:justify-start">
+              <div className="mt-5 sm:mt-8 md:justify-start sm:flex justify-center bug">
                 <div
                   className="apply-button h-full"
-                  data-hackathon-slug="electrothon-4"
-                  data-button-theme="light"
+                  data-hackathon-slug="make4thon"
+                  data-button-theme="dark"
                 ></div>
               </div>
               {/* <div className="flex justify-center md:justify-start space-x-5 mt-6 opacity-80">
                 <a
-                  href="https://discord.gg/cjMMRs7tHs"
+                  href="https://discord.gg/dt3JkXvAug"
                   rel="noreferrer noopenor"
                   target="_blank">
                   <FontAwesomeIcon className="text-3xl text-blue-800 fill-current" icon={faDiscord} />

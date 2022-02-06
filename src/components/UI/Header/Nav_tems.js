@@ -1,44 +1,53 @@
+// import { faMonero } from "@fortawesome/free-brands-svg-icons";
 import {
-  faCalendarDay,
-  faHandshake,
+  // faCalendarDay,
+  // faHandshake,
   // faHome,
-  faIdCardAlt,
+  // faIdCardAlt,
   faSearch,
   // faUsers,
-  faWindowRestore,
-  faTrophy,
+  // faWindowRestore,
+  // faTrophy,
+  faCalendarAlt,
+  faAward,
+  faMoneyBill,
+  faRunning,
+  // faComment,
+  faCommentAlt,
+  faHome,
+  faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 
 const navItems = [
-  // {
-  //   name: "Home",
-  //   id: "home",
-  //   icon: faHome,
-  // },
-  // {
-  //   name: "About Us",
-  //   id: "general-content",
-  //   icon: faUsers,
-  // },
   {
-    name: "Schedule",
-    id: "schedule",
-    icon: faCalendarDay,
+    name: "Home",
+    id: "home",
+    icon: faHome,
   },
   {
-    name: "Themes",
+    name: "About Us",
+    id: "general-content",
+    icon: faUsers,
+  },
+  {
+    name: "Timeline",
+    id: "schedule",
+    icon: faCalendarAlt,
+  },
+  {
+    name: "Tracks",
     id: "themes",
-    icon: faWindowRestore,
+    icon: faRunning,
   },
   {
     name: "Prizes",
     id: "prizes",
-    icon: faTrophy,
+    icon: faAward,
   },
   {
     name: "Sponsors",
     id: "sponsors",
-    icon: faHandshake,
+    icon: faMoneyBill,
   },
   {
     name: "FAQ",
@@ -48,7 +57,7 @@ const navItems = [
   {
     name: "Contact Us",
     id: "contact",
-    icon: faIdCardAlt,
+    icon: faCommentAlt,
     hide: true,
   },
 ];

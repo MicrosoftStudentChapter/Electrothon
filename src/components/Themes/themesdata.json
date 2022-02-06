@@ -1,39 +1,30 @@
 [
   {
-    "title": "Climate Change",
-    "content": "Lead a brawl against climate change by fabricating an innovative solution to forge a world where the future generations don't have to worry.",
-    "image": "climate.png",
-    "webp": "climate.webp"
+    "title": "LGBTQ+",
+    "content": "Inclusivity isn't merely a choice but a right deserved by all. Forge solutions to paint a colorful world where the queer community finds a safe space.",
+    "image": "lgbtq.png",
+    "webp": "lgbtq.webp"
   },
   {
-    "title": "Pandemic",
-    "content": "Integrate an approach that helps people build up resilience to cope with the inevitable new normal by figuring strategies in the wake of pandemic.",
-    "image": "pandemic.png",
-    "webp": "pandemic.webp"
+    "title": "Mental Health",
+    "content": "A sound human mind gives way to a healthy life. There's a delicate balance between mental and physical health. Striving to sustain this balance calls for intelligent solutions to keep one's mental health sheltered.",
+    "image": "mentalhealth.png",
+    "webp": "mentalhealth.webp"
   },
   {
-    "title": "Cyber Bullying",
-    "content": "Build prudent solutions to help prevent people from succumbing to the spiral of cyberbullying and to combat misuse of technology and online harassment.",
+    "title": "FinTech",
+    "content": "The amalgamation of finance and technology is ushering our society into a new age of innovation and urbanization. Fintech should prudently be used to propogate financial freedom to every part of the country.",
     "image": "cyber.png",
     "webp": "cyber.webp"
   },
   {
-    "title": "Natural Disasters",
-    "content": "Harnessing the power of technology, vouch for innovative solutions to address the uprising challenges caused by natural calamities.",
-    "image": "natural.png",
-    "webp": "natural.webp"
-  },
-
-  {
-    "title": "Hunger Eradication",
-    "content": "In order to shape a world where no one has to question the guarantee of a two square meal, devise projects that promise to eradicate hunger.",
-    "image": "hunger.png",
-    "webp": "hunger.webp"
-  },
-  {
-    "title": "Open Innovation",
-    "content": "Let your imagination go haywire as you envision ideas that hold the capability to solve any problem that has been distressing mankind for ages.",
-    "image": "idea.png",
-    "webp": "idea.webp"
+    "title": "Period Poverty",
+    "content": "Menstrual sanitation faces barriers of social, economic, and cultural factors. Overrule the stigma around periods and create innovations to aid the menstruating population.",
+    "image": "period.png",
+    "webp": "period.webp"
   }
+
+
+
+
 ]

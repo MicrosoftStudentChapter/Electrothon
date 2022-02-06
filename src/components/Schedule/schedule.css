@@ -1,16 +1,15 @@
 .schedule-block1{
-    background: linear-gradient(135deg, #1e6dad, #a3cb77);
+    background: linear-gradient(to right, #185a9d, #00bf8f);
 }
 
 .schedule-block2{
-    background: linear-gradient(135deg, #60b4ec, #0a76e2);
-}
-
-.schedule-block3{
-    background: linear-gradient(135deg, #e78967, #d49114);
+    background: linear-gradient(to right, #185a9d, #00bf8f);
 }
 
 .schedule-block4{
-    background: linear-gradient(135deg, #eea849, #f46b45);
+    background: linear-gradient(to left, #0c473a, #00bf8f);
 }
 
+.schedule-block3{
+    background: linear-gradient(to left, #0c473a, #00bf8f);
+}

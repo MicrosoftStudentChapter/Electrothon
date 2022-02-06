@@ -19,8 +19,8 @@ const BackgroundStatic = () => {
             gradientTransform="matrix(-1, 0, 0, 1.36, 231.36, -100.14)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.07" stopColor="#9c536b" />
-            <stop offset="0.98" stopColor="#d98981" />
+            <stop offset="0.07" stopColor="#3A6351" />
+            <stop offset="0.98" stopColor="#3A6351" />
           </linearGradient>
           <radialGradient
             id="bg_grad"
@@ -29,12 +29,12 @@ const BackgroundStatic = () => {
             r="318.69"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.1" stopColor="#F5C54E" id="sun" />
-            <stop offset="0.1" stopColor="#FFDBA6" />
-            <stop offset="0.0" stopColor="#F7BB93" />
-            <stop offset="0.0" stopColor="#F2995E" />
-            <stop offset="0.0" stopColor="#f07560" />
-            <stop offset="0.8" stopColor="#FFAB93" />
+            <stop offset="0.1" stopColor="#3A6351" id="sun" />
+            <stop offset="0.1" stopColor="#3A6351" />
+            <stop offset="0.0" stopColor="#3A6351" />
+            <stop offset="0.0" stopColor="#3A6351" />
+            <stop offset="0.0" stopColor="#3A6351" />
+            <stop offset="0.8" stopColor="#3A6351" />
           </radialGradient>
           <linearGradient
             id="grad2"
@@ -44,8 +44,8 @@ const BackgroundStatic = () => {
             y2="356.25"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="#fbbd93" />
-            <stop offset="0.98" stopColor="#c46976" />
+            <stop offset="0" stopColor="#3A6351" />
+            <stop offset="0.98" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="grad3"
@@ -55,8 +55,8 @@ const BackgroundStatic = () => {
             y2="225.47"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.01" stopColor="#ffb8bd" />
-            <stop offset="1" stopColor="#914d64" />
+            <stop offset="0.01" stopColor="#3A6351" />
+            <stop offset="1" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="grad4"
@@ -66,8 +66,8 @@ const BackgroundStatic = () => {
             y2="600.82"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="#70375a" />
-            <stop offset="0.96" stopColor="#8a6e95" />
+            <stop offset="0" stopColor="#3A6351" />
+            <stop offset="0.96" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="grad5"
@@ -77,8 +77,8 @@ const BackgroundStatic = () => {
             y2="413.12"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="#433d6c" />
-            <stop offset="1" stopColor="#392e54" />
+            <stop offset="0" stopColor="#3A6351" />
+            <stop offset="1" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="grad6"
@@ -88,8 +88,8 @@ const BackgroundStatic = () => {
             y2="498.93"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="#2b2850" />
-            <stop offset="0.99" stopColor="#563a6a" />
+            <stop offset="0" stopColor="#3A6351" />
+            <stop offset="0.99" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="grad7"
@@ -99,9 +99,9 @@ const BackgroundStatic = () => {
             y2="516.33"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.3" stopColor="#1c1b38" />
-            <stop offset="0.38" stopColor="#201e3e" />
-            <stop offset="0.9" stopColor="#383263" />
+            <stop offset="0.3" stopColor="#3A6351" />
+            <stop offset="0.38" stopColor="#3A6351" />
+            <stop offset="0.9" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="grad8"
@@ -111,10 +111,10 @@ const BackgroundStatic = () => {
             y2="500.39"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="#0e0a1a" />
-            <stop offset="0.3" stopColor="#100d1f" />
-            <stop offset="0.64" stopColor="#17142c" />
-            <stop offset="0.95" stopColor="#201f3f" />
+            <stop offset="0" stopColor="#3A6351" />
+            <stop offset="0.3" stopColor="#3A6351" />
+            <stop offset="0.64" stopColor="#3A6351" />
+            <stop offset="0.95" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="grad9"
@@ -124,8 +124,8 @@ const BackgroundStatic = () => {
             y2="623.69"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.01" stopColor="#120e22" />
-            <stop offset="1" stopColor="#221d42" />
+            <stop offset="0.01" stopColor="#3A6351" />
+            <stop offset="1" stopColor="#3A6351" />
           </linearGradient>
 
           <linearGradient
@@ -136,8 +136,8 @@ const BackgroundStatic = () => {
             y2="334.36"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="#2c2c50" />
-            <stop offset="1" stopColor="#434375" />
+            <stop offset="0" stopColor="#3A6351" />
+            <stop offset="1" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="lg5"
@@ -180,16 +180,16 @@ const BackgroundStatic = () => {
             gradientTransform="translate(750 552.6) rotate(180) scale(1 1.11)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="hsla(349, 94%, 75%, 1)" />
-            <stop offset="0.12" stopColor="hsla(342, 49%, 62%, 1)" />
-            <stop offset="0.18" stopColor="hsla(328, 37%, 56%, 1)" />
-            <stop offset="0.33" stopColor="hsla(281, 33%, 48%, 1)" />
-            <stop offset="0.41" stopColor="hsla(268, 38%, 48%, 1)" />
-            <stop offset="0.45" stopColor="hsla(266, 38%, 43%, 1)" />
-            <stop offset="0.55" stopColor="hsla(261, 37%, 32%, 1)" />
-            <stop offset="0.64" stopColor="hsla(253, 36%, 24%, 1)" />
-            <stop offset="0.72" stopColor="hsla(244, 33%, 19%, 1)" />
-            <stop offset="0.78" stopColor="hsla(240, 33%, 17%, 1)" />
+            <stop offset="0" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.12" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.18" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.33" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.41" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.45" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.55" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.64" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.72" stopColor="rgba(51,137,95,0.97)" />
+            <stop offset="0.78" stopColor="rgba(51,137,95,0.97)" />
           </radialGradient>
           <linearGradient
             id="linear-gradient"
@@ -199,8 +199,8 @@ const BackgroundStatic = () => {
             y2="461.56"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="#fd75a8" />
-            <stop offset="1" stopColor="#5a2d81" />
+            <stop offset="0" stopColor="#3A6351" />
+            <stop offset="1" stopColor="#3A6351" />
           </linearGradient>
           <linearGradient
             id="linear-gradient-2"

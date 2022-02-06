@@ -40,10 +40,6 @@ body {
   }                                             
 }
 
-.activeColor{
-  background-color: rgba(11, 11, 11, 0.5);
-}
-
 .xl3{
   font-family: 'Poppins', sans-serif;
   font-weight: 351 !important;
@@ -65,11 +61,11 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#221E1E", en
 
 background: hsla(0, 6%, 13%, 1);
 
-background: linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(191, 57%, 69%, 0.6) 100%);
+background: linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(300, 100%, 59%, 0.6) 100%);
 
 background: -moz-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(191, 57%, 69%, 0.6) 100%);
 
-background: -webkit-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(191, 57%, 69%, 0.6) 100%);
+background: -webkit-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(281, 100%, 54%, 0.6) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#221E1E", endColorstr="#82CCDD", GradientType=1 );
 }
@@ -91,7 +87,7 @@ background: linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(41, 99%, 67%, 0
 
 background: -moz-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(41, 99%, 67%, 0.6) 100%);
 
-background: -webkit-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(41, 99%, 67%, 0.6) 100%);
+background: -webkit-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(167, 100%, 50%, 0.6) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#221E1E", endColorstr="#FECA57", GradientType=1 );
 }
@@ -104,7 +100,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#221E1E", en
   
   background: -moz-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(0, 0%, 66%, 0.6) 100%);
   
-  background: -webkit-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(0, 0%, 66%, 0.6) 100%);
+  background: -webkit-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(0, 100%, 50%, 0.6) 100%);
   
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#221E1E", endColorstr="#A9A9A9", GradientType=1 );
 }
@@ -117,7 +113,7 @@ background: linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(30, 74%, 45%, 0
 
 background: -moz-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(30, 74%, 45%, 0.6) 100%);
 
-background: -webkit-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(30, 74%, 45%, 0.6) 100%);
+background: -webkit-linear-gradient(135deg, hsla(0, 6%, 13%, 0) 0%, hsla(103, 100%, 50%, 0.6) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#221E1E", endColorstr="#c8731e99", GradientType=1 );
 }

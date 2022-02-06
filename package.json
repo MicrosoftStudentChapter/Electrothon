@@ -1,5 +1,5 @@
 {
-  "name": "electrothon",
+  "name": "make4thon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,9 +10,11 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "@headlessui/react": "^1.4.1",
+    "@widgetbot/react-embed": "^1.4.0",
     "aos": "^2.3.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-embed": "^3.3.3",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
     "swiper": "^7.4.1"
@@ -53,6 +55,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "http://spec-nith.github.io/Electrothon"
+    "homepage": "https://make4thon.mlsctiet.co.in/"
   }
 }
