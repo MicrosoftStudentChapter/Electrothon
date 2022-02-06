@@ -239,13 +239,13 @@ export const data = [
         url: "https://proto.io/",
         id: "gold_20",
       },
-      {
-        sponsorName: "GrabOn",
-        webp: "sponsors/gold/webp/grabon.webp",
-        src: "sponsors/gold/grabon.jfif",
-        url: "https://grabon.in/",
-        id: "gold_21",
-      },
+//       {
+//         sponsorName: "GrabOn",
+//         webp: "sponsors/gold/webp/grabon.webp",
+//         src: "sponsors/gold/grabon.jfif",
+//         url: "https://grabon.in/",
+//         id: "gold_21",
+//       },
       {
         sponsorName: "Voiceflow",
         webp: "sponsors/gold/webp/voiceflow.webp",
