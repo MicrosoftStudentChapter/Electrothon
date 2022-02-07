@@ -1,0 +1,81 @@
+
+button,
+input{
+
+
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.clock{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0rem;
+  
+}
+
+.clock__display{
+
+    position: relative;
+    
+  }
+.clock__text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    color: rgb(249, 255, 255);
+    width: 100%;
+}
+  .clock__amount{
+      margin-top: -0.75rem;
+    font-size: 2.75rem
+  }
+  .clock__unit{
+      margin-top: -0.5rem;
+    font-size: .75rem
+  }
+.circle{
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset .4s cubic-bezier(.4, 0, 0, 1.7)
+}
+.form{
+  align-items: center;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+
+
+  .clock--error{
+    background-color:#e91e63;
+    color: rgba(white, .6);
+    padding: 1rem
+  }
+  @media screen and (min-width:1280px) {
+      .clock{
+          margin-top:150px;
+          margin-left: 50px;
+      }
+     
+
+  }
+  @media screen and (max-width:559px) {
+  .minute1{
+    display: none;
+  }
+  }
+  @media screen and (max-width:419.5px) {
+    .minute{
+      display: none;
+    }
+    }
