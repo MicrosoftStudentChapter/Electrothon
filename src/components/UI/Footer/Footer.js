@@ -132,6 +132,9 @@ export default function Footer() {
               />
             </a>
           </div>
+          <div className="md:text-sm justify-center flex pb-2 text-gray-400 ">
+            <p>Templated from SPEC-NITH</p>
+          </div>
         </div>
       </div>
       
