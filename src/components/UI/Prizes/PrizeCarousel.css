@@ -2,18 +2,7 @@
   .prize-slide .swiper-slide-active{
     transform: scale(1);
   }
-  
-  /* .prize-slide .swiper-slide-active:after {
-    border-radius: 0.8rem;
-    position: absolute;
-    content:"";
-    height:100%;
-    width:100%;
-    top:0;
-    left:0;
-    background: linear-gradient(90deg, hsla(0, 6%, 13%, 0) 0%, hsla(0, 6%, 13%, 0) 100%);
-  } */
-  
+
   .prize-slide .swiper-slide-prev{
     transform: scale(0.85);
   }

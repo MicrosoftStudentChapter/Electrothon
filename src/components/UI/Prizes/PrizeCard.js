@@ -72,6 +72,7 @@ class PodiumCard extends React.Component {
         >
           <img
             style={this.props.data.cStyle}
+            style={{padding:"5%"}}
             className="w-full"
             src={this.props.data.img}
             alt="Sunset in the mountains"

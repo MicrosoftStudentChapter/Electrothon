@@ -134,6 +134,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      
     );
   };
   const [name,setName]=React.useState("");

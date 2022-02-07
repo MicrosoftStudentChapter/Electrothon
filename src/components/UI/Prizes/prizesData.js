@@ -2,13 +2,14 @@ export const podiumData = [
   {
     name: "Runners Up",
     amt: "Cash Prize-TBA",
-    webp: "prizes/webp/runnerup.webp",
-    img: "prizes/runnerup.png",
+    webp: "prizes/webp/3rd.webp",
+    img: "prizes/3rd.png",
     id: "r",
     cStyle: {
       paddingTop: "1.75rem",
       top: "-0.875rem",
       position: "relative",
+      marginLeft: "2%",
     },
     desc: [
       "Rs.800 Coupon From GFG",
@@ -21,13 +22,14 @@ export const podiumData = [
   {
     name: "Winner Team",
     amt: "Cash Prize-TBA",
-    webp: "prizes/webp/winner.webp",
-    img: "prizes/winner.png",
+    webp: "prizes/webp/1st.webp",
+    img: "prizes/1st.png",
     id: "w",
     cStyle: {
       paddingTop: "3rem",
       top: "-1.5rem",
       position: "relative",
+      marginLeft: "2%",
     },
     desc: [
       "Rs.1200 Coupon From GFG",
@@ -40,11 +42,14 @@ export const podiumData = [
   {
     name: "Second Runners Up",
     amt: "Cash Prize-TBA",
-    webp: "prizes/webp/3rd.webp",
-    img: "prizes/3rd.png",
+    webp: "prizes/webp/2nd.webp",
+    img: "prizes/2nd.png",
     id: "g",
     cStyle: {
-      paddingTop: "0rem",
+      paddingTop: "3rem",
+      marginLeft: "2%",
+      top: "-1.5rem",
+      position: "relative",
     },
     desc: [
       "Rs.500 Coupon From GFG",
