@@ -384,13 +384,7 @@ export const data = [
         url: "https://mlh.io/",
         id: "title_0",
       },
-      {
-        sponsorName: "Tech Analogy",
-        webp: "sponsors/title/webp/techanalogy.webp",
-        src: "sponsors/title/techanalogy.png",
-        url: "https://techanalogy.org/",
-        id: "title_1",
-      },
+     
       {
         sponsorName: "Devfolio",
         webp: "sponsors/title/webp/devfolio.webp",
