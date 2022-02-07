@@ -1,111 +1,172 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
+import "./countdown.css"
+const zerofill = num => ((num < 10 && num >= 0) ? `0${num}` : num);
 
-const Timer = () => {
-  // const [timeUp,setTimeUp]=useState(false);
-  const [timerDays, setTimerDays] = useState("--");
-  const [timerHours, setTimerHours] = useState("--");
-  const [timerMinutes, setTimerMinutes] = useState("--");
-  const [timerSeconds, setTimerSeconds] = useState("--");
-
-  let interval = useRef();
-
-  const startTimer = () => {
-    const countDownDate = new Date("March 5, 2022 1:0:00").getTime();
-
-    interval = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = countDownDate - now;
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor(
-        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-      );
-      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((distance / 1000) % 60);
-      if (distance < 0) {
-        clearInterval(interval.current);
-        // setTimeUp(true);
-      } else {
-        setTimerDays(days);
-        setTimerHours(hours);
-        setTimerMinutes(minutes);
-        setTimerSeconds(seconds);
-      }
-    }, 1000);
-  };
-  useEffect(() => {
-    let intervalref = null;
-    startTimer();
-    if (interval.current) {
-      intervalref = interval.current;
-    }
-    return () => {
-      clearInterval(intervalref);
-    };
-  });
+const SvgCircle = (props) => {
+  const { className, done, max, radius, stroke, strokeWidth } = props
+  const size = (radius + strokeWidth) * 2
+  const length = Math.ceil(2 * radius * Math.PI)
+  const remainingLength = length - (Math.ceil(2 * radius * Math.PI) * (done / max))
   return (
-    <section id="timer" className="relative overflow-hidden lg:mt-12 lg:p-6">
-      <div className="container mx-auto lg:mt-24">
-        <div className="flex flex-col items-center w-full text-white">
-          {/* { timeUp ?
-                        (<div className="text-8xl pb-4">
-                            <span>Time's Up</span>
-                        </div>) : */}
-          <div className="flex md:items-stretch md:p-10">
-            <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="text-4xl md:text-6xl lg:text-7xl p-3 md:p-5" style={{color:"#30dc86"}}>
-                {("0" + timerDays).slice(-2)}
-              </span>
-              <div
-                className=" w-full text-center p-1.5 md:p-3 md:text-xl rounded-b-lg"
-                style={{ backgroundColor: "#1b141c" }}
-              >
-                <span className="">Days</span>
-              </div>
-            </div>
-            <span className="text-3xl md:text-8xl px-1 md:px-2 pt-4">:</span>
-            <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="text-4xl md:text-6xl lg:text-7xl p-3 md:p-5" style={{color:"#30dc86"}}>
-                {("0" + timerHours).slice(-2)}
-              </span>
-              <div
-                className=" w-full text-center p-1.5 md:p-3 md:text-xl rounded-b-lg"
-                style={{ backgroundColor: "#1b141c" }}
-              >
-                <span className="">Hours</span>
-              </div>
-            </div>
-            <span className="text-3xl md:text-8xl px-1 md:px-2 pt-4">:</span>
-            <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="text-4xl md:text-6xl lg:text-7xl p-3 md:p-5" style={{color:"#30dc86"}}>
-                {("0" + timerMinutes).slice(-2)}
-              </span>
-              <div
-                className=" w-full text-center p-1.5 md:p-3 md:text-xl rounded-b-lg"
-                style={{ backgroundColor: "#1b141c" }}
-              >
-                <span className="">Minutes</span>
-              </div>
-            </div>
-            <span className="text-3xl md:text-8xl px-1 md:px-2 pt-4">:</span>
-            <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="text-4xl md:text-6xl lg:text-7xl p-3 md:p-5" style={{color:"#30dc86"}}>
-                {("0" + timerSeconds).slice(-2)}
-              </span>
-              <div
-                className=" w-full text-center p-1.5 md:p-3 md:text-xl rounded-b-lg"
-                style={{ backgroundColor: "#1b141c" }}
-              >
-                <span className="">Seconds</span>
-              </div>
-            </div>
+    <svg 
+      className={className}
+      width={size}
+      height={size}
+      viewBox={`0 0 ${size} ${size}`}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g>
+        <circle 
+          className="circle"
+          r={radius}
+          cx={radius + strokeWidth} 
+          cy={radius + strokeWidth} 
+          stroke={stroke}
+          strokeDasharray={length}
+          strokeDashoffset={remainingLength}
+          strokeLinecap="round"
+          strokeWidth={strokeWidth}
+          fill="none" 
+        />
+        <circle 
+          className="circle--bg"
+          r={radius} 
+          cx={radius + strokeWidth}
+          cy={radius + strokeWidth} 
+          stroke="rgba(0, 0, 0, .1)"
+          strokeLinecap="round"
+          strokeWidth={strokeWidth} 
+          fill="none" 
+        />
+      </g>
+    </svg>
+  )
+}
+
+SvgCircle.defaultProps = {
+  done: 0,
+  max: 24,
+  radius: 62,
+  stroke: '#19cd72',
+  strokeWidth: 8,
+}
+
+
+class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      
+    }
+  }
+  componentWillMount() {
+    this.getTimeUntil(this.props.deadline)
+  }
+ 
+  componentDidMount() {
+    this.timerId = setInterval(() => this.getTimeUntil(this.props.deadline), 1000)
+  }
+  componentWillUnmount() {
+    clearInterval(this.timerId)
+  }
+  getTimeUntil(deadline) {
+    const time = Date.parse(deadline) - Date.parse(new Date())
+    const seconds = Math.floor(time / 1000 % 60)
+    const minutes = Math.floor(time / 1000 / 60 % 60)
+    const hours = Math.floor(time / (1000 * 60 * 60) % 24)
+    const days = Math.floor(time / (1000 * 60 * 60 * 24))
+
+    this.setState({ days, hours, minutes, seconds })
+  }
+  render() {
+    return (
+      <div className="clock">
+        <div className="clock__display">
+          <SvgCircle className="clock__circle" max={365} done={this.state.days} />
+          <div className="clock__text clock__text--days">
+            <span className="clock__amount">{zerofill(this.state.days)}</span>
+            <span className="clock__unit">days</span>
           </div>
-          {/* } */}
         </div>
-        {/* <div className="w-full text-center text-xl content-theme">
-                <span>The tech realm is going to reign supreme on 18th February 2022 !</span>
-                </div> */}
+        <div className="clock__display">
+          <SvgCircle max={24} done={this.state.hours} />
+          <div className="clock__text clock__text--hours">
+            <span className="clock__amount">{zerofill(this.state.hours)}</span>
+            <span className="clock__unit">hours</span>
+          </div>
+        </div>
+        <div className="clock__display minute">
+          <SvgCircle max={60} done={this.state.minutes} />
+          <div className="clock__text clock__text--minutes minute">
+            <span className="clock__amount">{zerofill(this.state.minutes)}</span>
+            <span className="clock__unit">minutes</span>
+          </div>
+        </div>
+        <div className="clock__display minute minute1 ">
+          <SvgCircle max={60} done={this.state.seconds} />
+          <div className="clock__text clock__text--seconds minute">
+            <span className="clock__amount">{zerofill(this.state.seconds)}</span>
+            <span className="clock__unit">seconds</span>
+          </div>
+        </div>
       </div>
-    </section>
-  );
-};
-export default Timer;
+    )
+  }
+}
+
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      deadline: '2022-03-05',
+      error: undefined,
+      newDeadline: undefined,
+    }
+    this.handleChange = this.handleChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
+  }
+  handleChange(e) {
+    this.setState({ newDeadline: e.target.value.trim() })
+  }
+  handleSubmit(e) {
+    e.preventDefault()
+    if (isNaN(Date.parse(this.state.newDeadline))) {
+      this.setState({
+        error: "That doesn't seem to be a valid date",
+      })
+    } else if (Date.parse(this.state.newDeadline) < new Date()) {
+      this.setState({ error: 'This date is in the past' })
+    } else {
+      this.setState({
+        deadline: this.state.newDeadline,
+        newDeadline: undefined,
+        error: undefined,
+      })
+    }
+    
+    this.inputRef.value = ''
+  }
+  formatDate() {
+    return new Date(Date.parse(this.state.deadline)).toDateString()
+  }
+  render() {
+    return(
+      <div className="app">
+        <Clock deadline={this.state.deadline} />
+       
+         
+        {
+          this.state.error &&
+            <div className="message message--error">{this.state.error}</div>
+        }
+      </div>
+    )
+  }
+}
+
+
+export default App;
