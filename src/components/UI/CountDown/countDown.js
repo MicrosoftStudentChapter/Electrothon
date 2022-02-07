@@ -86,7 +86,7 @@ class Clock extends React.Component {
     return (
       <div className="clock">
         <div className="clock__display">
-          <SvgCircle className="clock__circle" max={365} done={this.state.days} />
+          <SvgCircle className="clock__circle" max={36} done={this.state.days} />
           <div className="clock__text clock__text--days">
             <span className="clock__amount">{zerofill(this.state.days)}</span>
             <span className="clock__unit">days</span>
