@@ -113,12 +113,12 @@ const prizeCarousel = (props) => {
         <h1 className="mt-16 text-center text-5xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme" style={{color:"#30dc86",fontWeight:"600"}}>
           {allParticipants.name}
         </h1>
-        <div className="w-full h-full md:max-w-6xl md:flex m-auto  rounded-2xl p-4 mt-2 bg-black bg-opacity-25">
+        <div className="w-full h-full md:max-w-6xl md:flex m-auto backdrop-filter rounded-2xl p-4 mt-2 bg-transparent backdrop-blur-sm bg-opacity-25 shadow-2xl shadow-transparent ">
           <div className="h-1/2 md:h-auto md:w-1/2 text-center overflow-hidden">
             <picture>
               <source srcSet={allParticipants.webp} type="image/webp" />
               <img
-                className="w-full h-full object-fit md:object-contain"
+                className="w-full shadow-2xl h-full object-fit md:object-contain"
                 src={allParticipants.img}
                 alt="prizes"
               />
