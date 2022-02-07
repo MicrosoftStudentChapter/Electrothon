@@ -133,7 +133,11 @@ export default function Footer() {
             </a>
           </div>
           <div className="md:text-sm justify-center flex pb-2 text-gray-400 ">
-            <p>Copyright (c) 2022 SPEC-NITH. All rights reserved.</p>
+            <a
+              href="https://electrothon.specnith.com/"
+              rel="noreferrer noopenor"
+              target="_blank"
+            >Copyright (c) 2022 SPEC-NITH. All rights reserved.</a>
           </div>
         </div>
       </div>
