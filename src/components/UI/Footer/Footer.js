@@ -230,7 +230,7 @@ export default function Footer() {
           <div className="flex flex-col justify-around">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold leading-tight header-theme">
-                Lets talk about everything!
+                Get in touch with us
               </h2>
               <div className="text-gray-300 mt-8">
                 Hate forms? Send us an email at{" "}
