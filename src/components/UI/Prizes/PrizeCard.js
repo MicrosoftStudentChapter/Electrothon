@@ -72,7 +72,6 @@ class PodiumCard extends React.Component {
         >
           <img
             style={this.props.data.cStyle}
-            style={{padding:"5%"}}
             className="w-full"
             src={this.props.data.img}
             alt="Sunset in the mountains"
@@ -81,7 +80,7 @@ class PodiumCard extends React.Component {
             className="px-6 text-center min-h-40 pt-4 text-white"
             style={{ backgroundColor: "#1b141c" }}
           >
-            <div className="font-bold text-2xl mb-2 ">
+            <div className="font-bold text-4xl mb-2 ">
               {this.props.data.name}
             </div>
             <p className="text-lg pb-2">{this.props.data.amt}</p>
