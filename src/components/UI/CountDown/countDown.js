@@ -99,16 +99,16 @@ class Clock extends React.Component {
             <span className="clock__unit">hours</span>
           </div>
         </div>
-        <div className="clock__display">
+        <div className="clock__display minute">
           <SvgCircle max={60} done={this.state.minutes} />
-          <div className="clock__text clock__text--minutes">
+          <div className="clock__text clock__text--minutes minute">
             <span className="clock__amount">{zerofill(this.state.minutes)}</span>
             <span className="clock__unit">minutes</span>
           </div>
         </div>
-        <div className="clock__display">
+        <div className="clock__display minute minute1 ">
           <SvgCircle max={60} done={this.state.seconds} />
-          <div className="clock__text clock__text--seconds">
+          <div className="clock__text clock__text--seconds minute">
             <span className="clock__amount">{zerofill(this.state.seconds)}</span>
             <span className="clock__unit">seconds</span>
           </div>

@@ -66,5 +66,16 @@ input{
           margin-top:150px;
           margin-left: 50px;
       }
+     
 
   }
+  @media screen and (max-width:559px) {
+  .minute1{
+    display: none;
+  }
+  }
+  @media screen and (max-width:419.5px) {
+    .minute{
+      display: none;
+    }
+    }
