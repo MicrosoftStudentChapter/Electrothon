@@ -19,10 +19,10 @@ const prizeCarousel = (props) => {
       data-aos-easing="ease-in-out-cubic"
     >
       <div className="container mx-auto">
-        <h1 className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme" style={{color:"#30dc86",fontWeight:"600"}}>
+        <center><h1 className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 header-theme" style={{color:"#30dc86",fontWeight:"600"}}>
           Prizes
-        </h1>
-        <div className="m-auto  px-1 py-24 ">
+        </h1></center>
+        <div className="m-auto px-1 py-24 ">
           <Prizes />
         </div>
         {/* <Swiper
@@ -110,7 +110,7 @@ const prizeCarousel = (props) => {
             );
           })}
         </Swiper> */}
-        <h1 className="mt-16 text-center text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme" style={{color:"#30dc86",fontWeight:"600"}}>
+        <h1 className="mt-16 text-center text-5xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme" style={{color:"#30dc86",fontWeight:"600"}}>
           {allParticipants.name}
         </h1>
         <div className="w-full h-full md:max-w-6xl md:flex m-auto  rounded-2xl p-4 mt-2 bg-black bg-opacity-25">
