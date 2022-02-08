@@ -298,14 +298,14 @@ export const data = [
         sponsorName: "Spec-nith",
         webp: "sponsors/bronze/webp/spec_logo.webp",
         src: "sponsors/bronze/spec_logo.png",
-        url: "https://youthincmag.com/",
+        url: "https://specnith.com/",
         id: "bronze_0",
       },
       {
         sponsorName: "Youth Inc.",
         webp: "sponsors/bronze/webp/youth.webp",
         src: "sponsors/bronze/youth.jpg",
-        url: "https://specnith.com/",
+        url: "https://youthincmag.com/",
         id: "bronze_1",
       },
       {
