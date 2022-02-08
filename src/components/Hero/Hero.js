@@ -18,7 +18,7 @@ export default function Introduction() {
   return (
     <section
       id="home"
-      style={{marginTop:"4rem"}}
+      style={{marginTop:"5rem"}}
     >
       <div
         className="m-auto col-span-2"

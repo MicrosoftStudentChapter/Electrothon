@@ -26,13 +26,13 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1280px) {
   .mlh{
-    left: 90vw;
+    left: 87vw;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1536px) {
   .mlh{
-    left: 97vw;
+    left: 93vw;
   }
 }
