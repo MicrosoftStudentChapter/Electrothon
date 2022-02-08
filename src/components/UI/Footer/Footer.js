@@ -134,7 +134,7 @@ export default function Footer() {
           </div>
           <div className="md:text-sm justify-center flex pb-2 text-gray-400 ">
             <a
-              href="https://electrothon.specnith.com/"
+              href="https://specnith.com/"
               rel="noreferrer noopenor"
               target="_blank"
             >Copyright (c) 2022 SPEC-NITH. All rights reserved.</a>
