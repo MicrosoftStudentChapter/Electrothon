@@ -15,6 +15,7 @@ export const podiumData = [
       top: "-1.5rem",
       position: "relative",
       marginLeft: "2%",
+      
     },
     desc: [
       "Rs.500 Coupon From GFG",

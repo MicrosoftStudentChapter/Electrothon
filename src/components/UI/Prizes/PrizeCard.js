@@ -67,7 +67,7 @@ class PodiumCard extends React.Component {
           </div>
         </div>
         <div
-          className="max-w-sm rounded overflow-hidden shadow-lg leading-normal tracking-tight"
+          className="max-w-sm rounded-xl shadow-8xl overflow-hidden shadow-lg leading-normal tracking-tight"
           style={custom}
         >
           <img
@@ -77,7 +77,7 @@ class PodiumCard extends React.Component {
             alt="Sunset in the mountains"
           />
           <div
-            className="px-6 text-center min-h-40 pt-4 text-white"
+            className="px-6 rounded-lg text-center min-h-40 pt-4 text-white"
             style={{ backgroundColor: "#1b141c" }}
           >
             <div className="font-bold text-4xl mb-2 ">
