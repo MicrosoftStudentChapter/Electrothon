@@ -161,8 +161,6 @@ export default function Footer() {
   console.error('Error:', error);
 });
   }
-
-  const [state] = useForm("mzbodbrg");
   if (state.succeeded) {
     return (
       <footer
