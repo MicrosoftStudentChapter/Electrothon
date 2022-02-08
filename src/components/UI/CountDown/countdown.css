@@ -50,12 +50,12 @@ input{
     color: rgba(white, .6);
     padding: 1rem
   }
-  @media screen and (max-width:559px) {
+  @media screen and (max-width:515px) {
   .minute1{
     display: none;
   }
   }
-  @media screen and (max-width:419.5px) {
+  @media screen and (max-width:405px) {
     .minute{
       display: none;
     }

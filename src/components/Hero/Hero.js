@@ -18,6 +18,7 @@ export default function Introduction() {
   return (
     <section
       id="home"
+      style={{marginTop:"4rem"}}
     >
       <div
         className="m-auto col-span-2"
@@ -44,15 +45,15 @@ export default function Introduction() {
                       src="mkthn.png"
                       className="h-auto"
                       alt="Makeathon logo"
-                      style={{width:"70%"}}
+                      style={{width:"80%"}}
                     />
                   </picture>
                 </a></center>
                 <center><span className="text-white text-xl tracking-wider" style={{color:"#FFC600"}}>
-                  5th-6th March, 2022
+                  <strong>5th-6th March, 2022</strong>
                   <br />
-                  <p className="text-gray-500 md:text-gray-400 sm:text-gray-400">
-                   You code your own destiny now.
+                  <p className="text-white-100 md:text-white-100 sm:text-white-100">
+                   You code your own destiny.
                   </p>
                 </span></center>
               </h1>
@@ -61,6 +62,7 @@ export default function Introduction() {
                   className="apply-button h-full"
                   data-hackathon-slug="make4thon"
                   data-button-theme="dark"
+                  style={{margin:"3%"}}
                 ></div>
               </div></center>
             </div>
