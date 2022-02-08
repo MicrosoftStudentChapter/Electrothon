@@ -46,7 +46,7 @@ const SvgCircle = (props) => {
 SvgCircle.defaultProps = {
   done: 0,
   max: 24,
-  radius: 62,
+  radius: 52,
   stroke: '#19cd72',
   strokeWidth: 8,
 }
@@ -84,7 +84,7 @@ class Clock extends React.Component {
   }
   render() {
     return (
-      <div className="clock">
+      <div className="clock" style={{display:"flex", justifyContent:"center"}}>
         <div className="clock__display">
           <SvgCircle className="clock__circle" max={36} done={this.state.days} />
           <div className="clock__text clock__text--days">
