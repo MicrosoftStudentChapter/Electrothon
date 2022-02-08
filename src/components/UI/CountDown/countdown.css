@@ -1,8 +1,5 @@
-
 button,
 input{
-
-
   color: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -10,18 +7,13 @@ input{
 }
 
 .clock{
-  align-items: center;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 0rem;
-  
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-
 .clock__display{
-
     position: relative;
-    
   }
 .clock__text{
     align-items: center;
@@ -36,11 +28,11 @@ input{
     width: 100%;
 }
   .clock__amount{
-      margin-top: -0.75rem;
+    margin-top: -0.75rem;
     font-size: 2.75rem
   }
   .clock__unit{
-      margin-top: -0.5rem;
+    margin-top: -0.5rem;
     font-size: .75rem
   }
 .circle{
@@ -53,21 +45,10 @@ input{
   display: flex;
   margin-bottom: 1rem;
 }
-
-
-
   .clock--error{
     background-color:#e91e63;
     color: rgba(white, .6);
     padding: 1rem
-  }
-  @media screen and (min-width:1280px) {
-      .clock{
-          margin-top:150px;
-          margin-left: 50px;
-      }
-     
-
   }
   @media screen and (max-width:559px) {
   .minute1{
@@ -78,4 +59,4 @@ input{
     .minute{
       display: none;
     }
-    }
+  }
