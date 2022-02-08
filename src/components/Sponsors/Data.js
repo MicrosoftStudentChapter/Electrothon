@@ -295,10 +295,10 @@ export const data = [
     tierName: "Community and Outreach Partners",
     data: [
       {
-        sponsorName: "Spec-nith",
-        webp: "sponsors/bronze/webp/spec_logo.webp",
-        src: "sponsors/bronze/spec_logo.png",
-        url: "https://specnith.com/",
+        sponsorName: "Electrothon",
+        webp: "sponsors/bronze/webp/electro.webp",
+        src: "sponsors/bronze/electro.png",
+        url: "https://electrothon.specnith.com/",
         id: "bronze_0",
       },
       {
