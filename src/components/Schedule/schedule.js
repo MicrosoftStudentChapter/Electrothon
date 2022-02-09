@@ -23,7 +23,7 @@ export default function Schedule() {
     {
       title: "MAKE4THON Registration",
       para: "Registration open up for students on Devfolio.",
-      date: "26th January-3rd March 2022",
+      date: "26th January-26th Feb 2022",
     },
     {
       title: "Bootcamp",
