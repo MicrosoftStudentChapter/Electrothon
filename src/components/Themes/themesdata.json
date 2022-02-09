@@ -13,7 +13,7 @@
   },
   {
     "title": "FinTech",
-    "content": "The amalgamation of finance and technology is ushering our society into a new age of innovation and urbanization. Fintech should prudently be used to propogate financial freedom to every part of the country.",
+    "content": "The amalgamation of finance and technology is ushering our society into a new age of innovation and urbanization.Fintech should prudently be used to propogate financial freedom to every part of the country.",
     "image": "cyber.png",
     "webp": "cyber.webp"
   },
@@ -22,8 +22,13 @@
     "content": "Menstrual sanitation faces barriers of social, economic, and cultural factors. Overrule the stigma around periods and create innovations to aid the menstruating population.",
     "image": "period.png",
     "webp": "period.webp"
+  },
+  {
+    "title": "Defence",
+    "content": "The solutions for the welfare of the families of soldiers,especially widows,and injured victims,along with veterans of war,need drastic changes as we continue to rely on our defence sector.",
+    "image": "army.PNG",
+    "webp": "army.webp"
   }
-
 
 
 
