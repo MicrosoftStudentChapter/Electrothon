@@ -132,6 +132,13 @@ export default function Footer() {
               />
             </a>
           </div>
+          <div className="md:text-sm justify-center flex pb-2 text-gray-400 ">
+            <a
+              href="https://specnith.com/"
+              rel="noreferrer noopenor"
+              target="_blank"
+            >Copyright (c) 2022 SPEC-NITH. All rights reserved.</a>
+          </div>
         </div>
       </div>
       
@@ -228,7 +235,7 @@ export default function Footer() {
           <div className="flex flex-col justify-around">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold leading-tight header-theme">
-                Lets talk about everything!
+                Get in touch with us
               </h2>
               <div className="text-gray-300 mt-8">
                 Hate forms? Send us an email at{" "}
