@@ -33,9 +33,9 @@ export default function AboutMakeathon() {
           data-aos-easing="ease-in-out-cubic"
         >
           <picture>
-            <source srcSet="developer.webp" type="image/webp" />
+            <source srcSet="developers.webp" type="image/webp" />
             <img
-              src="developer.png"
+              src="developers.png"
               className="h-auto w-60 mx-auto"
               alt="Electrothon Logo"
             />
