@@ -38,7 +38,7 @@ export default function About() {
             About Us
           </h1>
           <div className="mt-1 text-xl content-theme md:mt-3 md:text-l lg:mx-0 md:leading-normal" style={{fontWeight:"500"}}>
-          Microsoft Student Learn Chapter, Thapar Institute of Engineering and Technology is an eminent 
+          Microsoft Learn Student Chapter, Thapar Institute of Engineering and Technology is an eminent 
           technical society with like-minded and driven individuals. MLSC strives to create a community 
           of versatile enthusiasts with progressive mindsets, promoting holistic development, mentoring 
           and motivating its students to refine their critical thinking, coding skills and soft skills. 
