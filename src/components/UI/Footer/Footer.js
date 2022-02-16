@@ -168,7 +168,8 @@ export default function Footer() {
   console.error('Error:', error);
 });
   }
-  // if (state.succeeded) {
+  const [state] = useForm("mzbodbrg");
+  if (state.succeeded) {
     return (
       <footer
         id="contact"
@@ -216,7 +217,7 @@ export default function Footer() {
         </div>
       </footer>
     );
-  // }
+  }
 
 
 
