@@ -152,7 +152,7 @@ export const data = [
         sponsorName: "Badelog",
         webp: "sponsors/gold/webp/badelog.webp",
         src: "sponsors/gold/badelog.png",
-        url: "https://www.badelog.in/",
+        url: "https://www.badelog.co.in/",
         id: "gold_9",
       },
       {
