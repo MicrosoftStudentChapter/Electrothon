@@ -6,7 +6,7 @@ import Intro from "./components/Hero/Hero";
 import About from "./components/About/About";
 import AboutMakeathon from "./components/About Makeathon/AboutMakeathon";
 import FAQ from "./components/FAQs/faq";
-import Judges from "./components/Judges/judges";
+// import Judges from "./components/Judges/judges";
 // import Milestone from "./components/Milestone/milestone";
 import Prizes from "./components/UI/Prizes/PrizeCarousel";
 // import ProbStatements from "./components/Prob_statements/problems";
@@ -15,7 +15,7 @@ import Schedule from "./components/Schedule/schedule";
 import Sponsors from "./components/Sponsors/Sponsors";
 // import Workshop from "./components/Workshop/Workshop";
 import Speakers from "./components/Speakers/Speakers";
-// import Challenges from "./components/Challenges/Challenges";
+import Challenges from "./components/Challenges/Challenges";
 import RingLoader from "react-spinners/RingLoader";
 //import MediaIcons from "./components/UI/MediaIcons/mediaicons";
 import AOS from "aos";
@@ -86,7 +86,7 @@ const App = () => {
               <Projects />
               {/* <ProbStatements /> */}
               <Prizes />
-              {/* <Challenges /> */}
+              <Challenges />
               {/* <Workshop /> */}
               <Sponsors />
               {/* <MediaIcons /> */}
