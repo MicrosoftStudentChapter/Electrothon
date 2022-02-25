@@ -168,6 +168,9 @@ export const allParticipants = {
     "Premium Tier service from Echo3D",
     "Coupon Voucher from Interview Buddy",
     "1 Free Year of 1Password Families",
-    "Expansion Pack worth 100$ from Leading Learners" 
+    "Expansion Pack worth 100$ from Leading Learners",
+    "Internship opportunities to participants and winners by Lets grow more",
+    "50% discount on sessions to all the participants by Mentro",
+    "Goodies to team using Agora SDK"
   ],
 };
