@@ -158,15 +158,14 @@ export const allParticipants = {
   desc: [
     "30% discount coupons from YHills",
     "Full access licenses of Interview Cake for Interview prep",
-    // "Free Student License from JetBrains",
+    "Free Student License from JetBrains",
     "Rs.300 Coupons from GFG",
     "Free domains from Cybrancee",
     "5-Year free upgrades from Taskade",
     "Internship opportunities from Heiphen",
     "90-day extended trial promo code for Balsamiq Cloud",
-    // "Coupons for top brands from GrabOn",
+    "Coupons for top brands from GrabOn",
     "Premium Tier service from Echo3D",
-    // "Hacker Plan from Repl.it",
     "Coupon Voucher from Interview Buddy",
     "1 Free Year of 1Password Families",
     "Expansion Pack worth 100$ from Leading Learners" 
