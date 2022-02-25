@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 
-const challengesData = require("./mlhChallenges.json");
+const challengesData = require("./mlhChallengesData.json");
 
 const MLHChallenges = () => {
   return (
