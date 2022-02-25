@@ -1,29 +1,36 @@
 [
   {
-    "name": "Miri Rodriguez",
-    "image": "speakers/miri.jpg",
-    "desc": "Author, Storyteller",
+    "name": "Varun Singla",
+    "image": "speakers/gate.png",
+    "desc": "Youtube, Gatesmashers",
     "insta": "",
     "linkedin": ""
   },
   {
-    "name": "Niharika Arora",
-    "image": "speakers/profile_pic.jpg",
-    "desc": "Arogya Setu Developer",
+    "name": "Tathagat Thapliyal",
+    "image": "speakers/ta.png",
+    "desc": "Frontend Engineer at CRED",
     "insta": "",
     "linkedin": ""
   },
   {
-    "name": "Nayan Mitra",
-    "image": "speakers/nayan.jpg",
-    "desc": "Aspire for her, Founder",
+    "name": "Kirti Gera",
+    "image": "speakers/Kirtigfg.png",
+    "desc": "Course Mentor at GFG",
     "insta": "",
     "linkedin": ""
   },
   {
-    "name": "Nayan Mitra",
-    "image": "speakers/nayan.jpg",
-    "desc": "Aspire for her, Founder",
+    "name": "Love Babbar",
+    "image": "speakers/Love.png",
+    "desc": "DSA God",
+    "insta": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Sai M",
+    "image": "speakers/sai.png",
+    "desc": "Intern at META",
     "insta": "",
     "linkedin": ""
   }

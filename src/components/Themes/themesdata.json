@@ -13,7 +13,7 @@
   },
   {
     "title": "FinTech",
-    "content": "The amalgamation of finance and technology is ushering our society into a new age of innovation and urbanization.Fintech should prudently be used to propogate financial freedom to every part of the country.",
+    "content": "The amalgamation of finance and technology is ushering our society into a new age of innovation and urbanization. Fintech should prudently be used to propogate financial freedom to every part of the country.",
     "image": "cyber.png",
     "webp": "cyber.webp"
   },
@@ -25,11 +25,8 @@
   },
   {
     "title": "Defence",
-    "content": "The solutions for the welfare of the families of soldiers,especially widows,and injured victims,along with veterans of war,need drastic changes as we continue to rely on our defence sector.",
+    "content": "The solutions for the welfare of the families of soldiers, especially widows, and injured victims, along with veterans of war, need drastic changes as we continue to rely on our defence sector.",
     "image": "army.PNG",
     "webp": "army.webp"
   }
-
-
-
 ]

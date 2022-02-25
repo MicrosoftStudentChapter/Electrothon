@@ -1,36 +1,36 @@
 [
   {
-    "name": "Miri Rodriguez",
+    "name": "Surendra Tipparaju",
     "image": "speakers/miri.jpg",
-    "desc": "Author, Storyteller",
+    "desc": "Director, Microsoft",
     "insta": "",
     "linkedin": ""
   },
   {
-    "name": "Niharika Arora",
+    "name": "Priya Vajpeyi",
     "image": "speakers/profile_pic.jpg",
-    "desc": "Arogya Setu Developer",
+    "desc": "Software Engineer, Adobe",
     "insta": "",
     "linkedin": ""
   },
   {
-    "name": "Nayan Mitra",
+    "name": "Soham Parekh",
     "image": "speakers/nayan.jpg",
-    "desc": "Aspire for her, Founder",
+    "desc": "SDE, ALAN AI",
     "insta": "",
     "linkedin": ""
   },
   {
-    "name": "Nayan Mitra",
+    "name": "Deepak Kumar Gour",
     "image": "speakers/nayan.jpg",
-    "desc": "Aspire for her, Founder",
+    "desc": "SWE, Google",
     "insta": "",
     "linkedin": ""
   },
   {
-    "name": "Nayan Mitra",
+    "name": "Galicia Gordon",
     "image": "speakers/nayan.jpg",
-    "desc": "Aspire for her, Founder",
+    "desc": "Founder, Leading Learners",
     "insta": "",
     "linkedin": ""
   }
