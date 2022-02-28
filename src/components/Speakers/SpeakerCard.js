@@ -1,5 +1,5 @@
 import React from "react";
-import { faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedinIn, faYoutube, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./SpeakerCard.css";
 
@@ -27,8 +27,18 @@ const SpeakerCard = ({ speaker }) => {
                   </a>
                 </li>
                 <li>
-                  <a href={speaker.lnikedin} aria-hidden="true">
+                  <a href={speaker.linkedin} aria-hidden="true">
                     <FontAwesomeIcon icon={faLinkedinIn} />
+                  </a>
+                </li>
+                <li>
+                  <a href={speaker.twitter} aria-hidden="true">
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </a>
+                </li>
+                <li>
+                  <a href={speaker.youtube} aria-hidden="true">
+                    <FontAwesomeIcon icon={faYoutube} />
                   </a>
                 </li>
               </ul>

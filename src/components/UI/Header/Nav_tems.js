@@ -16,6 +16,8 @@ import {
   faCommentAlt,
   faHome,
   faUsers,
+  // faTrophy,
+  faMicrophone,
 } from "@fortawesome/free-solid-svg-icons";
 
 const navItems = [
@@ -48,6 +50,11 @@ const navItems = [
     name: "Sponsors",
     id: "sponsors",
     icon: faMoneyBill,
+  },
+  {
+    name: "Speakers",
+    id: "speakers",
+    icon: faMicrophone,
   },
   {
     name: "FAQ",

@@ -2,16 +2,17 @@
   {
     "name": "Varun Singla",
     "image": "speakers/gate.png",
-    "desc": "Youtube, Gatesmashers",
-    "insta": "",
-    "linkedin": ""
+    "desc": "Youtuber | Gatesmashers",
+    "insta": "https://www.instagram.com/gate.smashers/",
+    "linkedin": "https://www.linkedin.com/in/varun-singla-a1696b107",
+    "workshopDate": "2022-02-28T18:00:00.000+05:30"
   },
   {
     "name": "Tathagat Thapliyal",
     "image": "speakers/ta.png",
     "desc": "Frontend Engineer at CRED",
-    "insta": "",
-    "linkedin": ""
+    "twitter": "https://twitter.com/tathagat2006",
+    "linkedin": "https://www.linkedin.com/in/tathagat-thapliyal/"
   },
   {
     "name": "Kirti Gera",
