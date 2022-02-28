@@ -22,7 +22,7 @@ const Nav = () => {
         duration={1000}
         className="flex flex-row items-center py-2 xl:text-md text-gray-400 border-transparent transition duration-300 transition-all cursor-pointer align-middle"
       >
-        <span className="flex items-center justify-center h-14 w-12 text-lg rounded-lg hover:text-white tooltip relative">
+        <span className="flex items-center justify-center h-15 w-12 text-lg rounded-lg hover:text-white tooltip relative">
           {props.item.id === "faq" ? (
             <svg
               className="w-8"
