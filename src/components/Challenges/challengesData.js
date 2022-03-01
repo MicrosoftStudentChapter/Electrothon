@@ -14,8 +14,8 @@ export const challengesData = [
     desc: [
       "Polygon (previously Matic) will be giving away a cash prize for the best hack built on top of Ethereum during the hackathon.",
     ],
-    img: "sponsors/gold/polygon.png",
-    webp: "sponsors/gold/webp/polygon.webp",
+    img: "sponsors/title/polygon.png",
+    webp: "sponsors/title/webp/polygon.webp",
     link: "https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c",
     prize: ["10000"],
     key: "cpolygon",
@@ -53,5 +53,15 @@ export const challengesData = [
     link: "https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203",
     prize: ["20000"],
     key: "cfilecoin",
+  },
+  {
+    desc: [
+      "Cudos is a distributed computing platform where suppliers of hardware monetise the idle time of their hardware, providing blockchains - A layer 2, Turing complete compute capacity - Cloud services at a fraction of the cost and with extended personalisation and functionality",
+    ],
+    img: "sponsors/bronze/cudos.png",
+    webp: "sponsors/bronze/webp/cudos.webp",
+    link: "https://drive.google.com/file/d/14deyrY4b93iuRmwNJajWycPNxeAgjyVD/view?usp=sharing",
+    prize: ["TBA by Cudos"],
+    key: "ccudos",
   },
 ];
