@@ -4,14 +4,13 @@
     "image": "speakers/gate.png",
     "desc": "Youtuber | Gatesmashers",
     "insta": "https://www.instagram.com/gate.smashers/",
-    "linkedin": "https://www.linkedin.com/in/varun-singla-a1696b107",
-    "workshopDate": "2022-02-28T18:00:00.000+05:30"
+    "linkedin": "https://www.linkedin.com/in/varun-singla-a1696b107"
   },
   {
     "name": "Tathagat Thapliyal",
     "image": "speakers/ta.png",
     "desc": "Frontend Engineer at CRED",
-    "insta": "https://instagram.com/tathagat._?utm_medium=copy_link",
+    "insta": "https://instagram.com/tathagat.",
     "linkedin": "https://www.linkedin.com/in/tathagat-thapliyal/"
   },
   {
@@ -24,14 +23,14 @@
   {
     "name": "Love Babbar",
     "image": "speakers/Love.png",
-    "desc": "DSA God",
-    "insta": "https://instagram.com/lovebabbar1?utm_medium=copy_link",
+    "desc": "Youtuber | DSA | Ex-Amazon",
+    "insta": "https://instagram.com/lovebabbar1",
     "linkedin": "https://www.linkedin.com/mwlite/in/love-babbar-38ab2887"
   },
   {
-    "name": "Sai M",
+    "name": "Sai Siddartha Maram",
     "image": "speakers/sai.png",
-    "desc": "Intern at META",
+    "desc": "Incoming UX Research Intern at Meta",
     "insta": "https://instagram.com/s.i.d_98?utm_medium=copy_link",
     "linkedin": "https://www.linkedin.com/mwlite/in/sai-siddartha-maram"
   }
