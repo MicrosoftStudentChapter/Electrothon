@@ -12,7 +12,9 @@ const Speakers = () => {
       data-aos-duration="1000"
       data-aos-easing="ease-in-out-cubic"
     >
-      <h1 className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme flex justify-center">
+      <h1
+        className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme pb-6"
+        style={{ textAlign: "center",color:"#30dc86",fontWeight:"600" }}>
         Speakers
       </h1>
       <div className="mt-5 md:mt-0">
