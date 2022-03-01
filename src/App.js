@@ -15,8 +15,8 @@ import Schedule from "./components/Schedule/schedule";
 import Sponsors from "./components/Sponsors/Sponsors";
 // import Workshop from "./components/Workshop/Workshop";
 import Speakers from "./components/Speakers/Speakers";
-// import Challenges from "./components/Challenges/Challenges";
-// import MLHChallenges from "./components/Challenges/mlhChallenges";
+import Challenges from "./components/Challenges/Challenges";
+import MLHChallenges from "./components/Challenges/mlhChallenges";
 import RingLoader from "react-spinners/RingLoader";
 //import MediaIcons from "./components/UI/MediaIcons/mediaicons";
 import AOS from "aos";
@@ -87,8 +87,8 @@ const App = () => {
               <Projects />
               {/* <ProbStatements /> */}
               <Prizes />
-              {/* <Challenges />
-              <MLHChallenges /> */}
+              <Challenges />
+              <MLHChallenges />
               {/* <Workshop /> */}
               <Sponsors />
               {/* <MediaIcons /> */}

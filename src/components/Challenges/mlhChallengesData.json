@@ -28,12 +28,12 @@
     },
     {
       "desc": [
-        "Build your hackathon project on CockroachDB's open source and indestructible SQL database."
+        "Best Blockchain Project Using Hedera."
       ],
-      "img": "challenges/CockroachDB.png",
-      "webp": "challenges/webp/CockroachDB.webp",
-      "prize": ["3D printing pen"],
-      "key": "CockroachDB"
+      "img": "challenges/hedera.png",
+      "webp": "challenges/webp/hedera.webp",
+      "prize": ["Glorious Modular Compact Mechanical Keyboard"],
+      "key": "Hedera"
     },
     {
       "desc": [
@@ -58,9 +58,18 @@
         "Sign-Up for <a href='https://hackp.ac/github' class='font-medium text-white' target='_blank' rel='noreferrer noopenor'>GitHub Global Campus</a> and use a GitHub repository to host your hack!",
         "Make sure your repository has an amazing README, meaningful pull requests and collaboration history, and a Github pages deployment!"
       ],
-      "img": "sponsors/title/Github.png",
-      "webp": "sponsors/title/webp/Github.webp",
+      "img": "sponsors/silver/Github.png",
+      "webp": "sponsors/silver/webp/Github.webp",
       "prize": ["Industry tools, events & learning resources"],
       "key": "Github"
+    },
+    {
+      "desc": [
+        "Dream Big and Create More Cheers with AB-InBev."
+      ],
+      "img": "challenges/AB-InBev.png",
+      "webp": "challenges/webp/AB-InBev.webp",
+      "prize": ["Anker Wireless Charger Bundle"],
+      "key": "AB-InBev"
     }
   ]
