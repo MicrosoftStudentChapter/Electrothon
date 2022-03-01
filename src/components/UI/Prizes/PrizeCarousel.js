@@ -19,9 +19,12 @@ const prizeCarousel = (props) => {
       data-aos-easing="ease-in-out-cubic"
     >
       <div className="container mx-auto">
-        <center><h1 className="text-5xl md:text-5xl leading-normal md:leading-relaxed mb-2 header-theme" style={{color:"#30dc86",fontWeight:"600"}}>
-          Prizes
-        </h1></center>
+       <h1
+        className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme pb-6"
+        style={{ textAlign: "center",color:"#30dc86",fontWeight:"600" }}
+      >
+        Prizes 
+      </h1>
         <div className="m-auto px-1 py-10 ">
           <Prizes />
         </div>
