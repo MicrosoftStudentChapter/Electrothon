@@ -1,37 +1,37 @@
 [
   {
     "name": "Surendra Tipparaju",
-    "image": "speakers/miri.jpg",
+    "image": "speakers/tippa.png",
     "desc": "Director, Microsoft",
     "insta": "",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/surendratipparaju/"
   },
   {
     "name": "Priya Vajpeyi",
-    "image": "speakers/profile_pic.jpg",
+    "image": "speakers/priya.png",
     "desc": "Software Engineer, Adobe",
     "insta": "",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/priya-vajpeyi/"
   },
   {
     "name": "Soham Parekh",
-    "image": "speakers/nayan.jpg",
+    "image": "speakers/soham.png",
     "desc": "SDE, ALAN AI",
     "insta": "",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/soham-parekh/"
   },
   {
     "name": "Deepak Kumar Gour",
-    "image": "speakers/nayan.jpg",
+    "image": "speakers/deepak.png",
     "desc": "SWE, Google",
     "insta": "",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/enigma27/"
   },
   {
     "name": "Galicia Gordon",
-    "image": "speakers/nayan.jpg",
+    "image": "speakers/galicia.png",
     "desc": "Founder, Leading Learners",
     "insta": "",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/galicia-gordon/"
   }
 ]
