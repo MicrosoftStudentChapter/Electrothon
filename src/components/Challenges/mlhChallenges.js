@@ -14,10 +14,13 @@ const MLHChallenges = () => {
       data-aos-duration="500"
       data-aos-easing="ease-in-out-cubic"
     >
-      <div className="container mx-auto">
-        <h1 className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme">
-          MLH Challenges
-        </h1>
+    <div className="container mx-auto">
+      <h1
+        className="text-3xl tracking-tight md:text-4xl leading-normal md:leading-relaxed header-theme pb-6"
+        style={{ textAlign: "center",color:"#30dc86",fontWeight:"600" }}
+      >
+        MLH Challenges
+      </h1>
         <div className="grid md:grid-cols-2 grid-cols-1 content-theme">
           {challengesData.map((challenge, index) => {
             return (
