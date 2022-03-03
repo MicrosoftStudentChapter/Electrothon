@@ -85,7 +85,7 @@ class PodiumCard extends React.Component {
             </div>
             <p className="text-lg pb-2">{this.props.data.amt}</p>
           </div>
-          {/* <div
+          <div
                   className="px-6 justify-end flex z-10 bg-blue-600 pb-2"
                   style={custom}
                 >
@@ -95,7 +95,7 @@ class PodiumCard extends React.Component {
                   >
                     Show More
                   </button>
-                </div> */}
+                </div>
         </div>
       </div>
     );
