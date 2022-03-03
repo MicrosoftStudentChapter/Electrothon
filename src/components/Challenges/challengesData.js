@@ -61,7 +61,27 @@ export const challengesData = [
     img: "sponsors/bronze/cudos.png",
     webp: "sponsors/bronze/webp/cudos.webp",
     link: "https://drive.google.com/file/d/14deyrY4b93iuRmwNJajWycPNxeAgjyVD/view?usp=sharing",
-    prize: ["TBA by Cudos"],
+    prize: ["8000", "7000"],
     key: "ccudos",
+  },
+  {
+    desc: [
+      "Building any Privacy Preserving & Secure App using Arcana SDK",
+    ],
+    img: "sponsors/title/arcana.png",
+    webp: "sponsors/title/webp/arcana.webp",
+    link: "https://docs.arcana.network/",
+    prize: ["15000"],
+    key: "carcana",
+  },
+  {
+    desc: [
+      "Agora is the leading video, voice and live interactive streaming platform, helping developers deliver rich in-app experiences—including embedded voice and video chat, real-time recording, interactive live streaming, and real-time messaging. Develop a hack that uses Agora SDK.",
+    ],
+    img: "sponsors/gold/agora.jfif",
+    webp: "sponsors/gold/webp/agora.webp",
+    link: "https://www.agora.io/en/developer-resources/",
+    prize: ["Free swags from Agora"],
+    key: "cagora",
   },
 ];

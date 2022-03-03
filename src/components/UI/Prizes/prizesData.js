@@ -171,6 +171,6 @@ export const allParticipants = {
     "Expansion Pack worth 100$ from Leading Learners",
     "Internship opportunities to participants Lets grow more",
     "50% discount on sessions by Mentro",
-    "Goodies to team using Agora SDK"
+    "60 days full featured license from Proto.io"
   ],
 };
