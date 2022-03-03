@@ -1,7 +1,5 @@
 import React from "react";
-// import './prize.css';
 import { podiumData } from "./prizesData";
-
 import "swiper/swiper.min.css";
 import "swiper/modules/pagination/pagination.min.css";
 import "swiper/modules/navigation/navigation.min.css";
@@ -86,14 +84,16 @@ class PodiumCard extends React.Component {
             <p className="text-lg pb-2">{this.props.data.amt}</p>
           </div>
           <div
-                  className="px-6 justify-end flex z-10 bg-blue-600 pb-2"
+                  className="px-6 justify-center flex z-10 bg-blue-600 pb-2"
                   style={custom}
                 >
                   <button
-                    className="inline-block bg-blue-600 rounded-full px-3 py-1 text-3x1 font-semibold text-black mr-2 leading-normal tracking-tight"
+                    className="bg-blue-600 rounded-full"
                     onClick={this.handleClick}
                   >
-                    Show More
+                    <div className="px-6 rounded-lg text-center min-h-40 pt-4 text-white">
+                   Show more
+                   </div> 
                   </button>
                 </div>
         </div>
