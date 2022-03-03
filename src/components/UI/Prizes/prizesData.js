@@ -139,6 +139,9 @@ export const allParticipants = {
     "Expansion Pack worth 100$ from Leading Learners",
     "Internship opportunities to participants Lets grow more",
     "50% discount on sessions by Mentro",
-    "60 days full featured license from Proto.io"
+    "60 days full featured license from Proto.io",
+    "Coupons from Badelog.in",
+    "Coupons from Tech Cryptors valid for 1 year",
+    "$100 credits by Digital Ocean",
   ],
 };
