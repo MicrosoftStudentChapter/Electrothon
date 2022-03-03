@@ -1,7 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 import { Pagination, Autoplay } from "swiper";
-
 import "swiper/swiper.min.css";
 import "swiper/modules/pagination/pagination.min.css";
 import "./themes.css";
@@ -42,12 +41,16 @@ const slider = (
             <div className="md:col-span-3 bg-gray-900 clip-class-theme p-8 2xl:my-20 xl:pt-16 ">
               <div className="track-text-outline h-full md:w-40 "></div>
               <div className="m-auto">
-                <h1 className="text-3xl md:text-3xl lg:text-4xl md:leading-relaxed header-theme pb-6 ">
+                <strong><h1 className="text-3xl md:text-3xl lg:text-4xl md:leading-relaxed header-theme pb-6 ">
                   {e.title}
-                </h1>
+                </h1></strong>
                 <span className="text-lg md:text-xl lg:text-2xl content-theme min-h-full">
                   {e.content}
                 </span>
+                <br />
+                <strong>
+                <a href={e.link} className="text-lg md:text-xl lg:text-2xl header-theme min-h-full">Click here to view</a></strong>
+                <br />
               </div>
             </div>
           </div>
