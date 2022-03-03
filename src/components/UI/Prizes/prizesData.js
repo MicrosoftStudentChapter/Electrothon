@@ -1,7 +1,7 @@
 export const podiumData = [
 
   {
-    name: "Second",
+    name: "Best 1st Year Hack",
     amt: "Cash Prize-TBA",
     webp: "prizes/webp/2nd.webp",
     img: "prizes/2nd.png",
@@ -25,7 +25,7 @@ export const podiumData = [
     ],
   },
   {
-    name: "First",
+    name: "Best Overall Hack",
     amt: "Cash Prize-TBA",
     webp: "prizes/webp/1st.webp",
     img: "prizes/1st.png",
@@ -49,7 +49,7 @@ export const podiumData = [
     ],
   },
   {
-    name: "Third",
+    name: "Individual Track Prize",
     amt: "Cash Prize-TBA",
     webp: "prizes/webp/3rd.webp",
     img: "prizes/3rd.png",
@@ -73,7 +73,7 @@ export const podiumData = [
 ];
 export const prizesData = [
   {
-    name: "Climate Change",
+    name: "Defence",
     amt: "Cash Prize",
     webp: "prizes/webp/climate.webp",
     img: "prizes/climate.png",
@@ -84,7 +84,7 @@ export const prizesData = [
     ],
   },
   {
-    name: "Pandemic",
+    name: "Mental Health",
     amt: "Cash Prize",
     webp: "prizes/webp/pandemic.webp",
     img: "prizes/pandemic.png",
@@ -95,7 +95,7 @@ export const prizesData = [
     ],
   },
   {
-    name: "Cyber Bullying",
+    name: "LGBTQ+",
     amt: "Cash Prize",
     webp: "prizes/webp/cyber.webp",
     img: "prizes/cyber.png",
@@ -106,7 +106,7 @@ export const prizesData = [
     ],
   },
   {
-    name: "Natural Disaster",
+    name: "Period Poverty",
     amt: "Cash Prize",
     webp: "prizes/webp/disaster.webp",
     img: "prizes/disaster.png",
@@ -114,38 +114,6 @@ export const prizesData = [
       "Wolfram Award letter",
       "Coding Minutes Course for each Team Member",
       "Swags and Stickers",
-    ],
-  },
-  {
-    name: "Hunger Eradication",
-    amt: "Cash Prize",
-    webp: "prizes/webp/hunger.webp",
-    img: "prizes/hunger.png",
-    desc: [
-      "Wolfram Award letter",
-      "Coding Minutes Course for each Team Member",
-      "Swags and Stickers",
-    ],
-  },
-  {
-    name: "Open Innovation",
-    amt: "Cash Prize",
-    webp: "prizes/webp/innovation.webp",
-    img: "prizes/innovation.png",
-    desc: [
-      "Wolfram Award letter",
-      "Coding Minutes Course for each Team Member",
-      "Swags and Stickers",
-    ],
-  },
-  {
-    name: "Best Beginner hack",
-    amt: "Cash Prize",
-    webp: "prizes/webp/beginnerhack.webp",
-    img: "prizes/beginnerhack.png",
-    desc: [
-      "Coding Minutes Course for each Team Member",
-      "Egghead course for Web Development to each participant",
     ],
   },
 ];
