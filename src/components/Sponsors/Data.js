@@ -497,43 +497,14 @@ export const data = [
         url: "https://www.lumoslabs.co/",
         id: "title_6",
       },
+      {
+        sponsorName: "ReskillAzure",
+        webp: "sponsors/title/webp/azure.webp",
+        src: "sponsors/title/azure.png",
+        url: "https://www.azdev.community/",
+        id: "title_7",
+      },
     ],
     id: "0",
   },
-
-
-  // {
-  //   tierName: "Our Partners",
-  //   data: [
-  //     {
-  //       sponsorName: "GrabOn",
-  //       webp: "sponsors/other/webp/grabon.webp",
-  //       src: "sponsors/other/grabon.png",
-  //       url: "https://www.grabon.in/",
-  //       id: "title_2",
-  //     },
-  //     {
-  //       sponsorName: "NoticeBard",
-  //       webp: "sponsors/other/webp/noticebard.webp",
-  //       src: "sponsors/other/noticebard.png",
-  //       url: "https://www.noticebard.com/",
-  //       id: "title_3",
-  //     },
-  //     {
-  //       sponsorName: "StreamYard",
-  //       webp: "sponsors/other/webp/streamyard.webp",
-  //       src: "sponsors/other/streamyard.png",
-  //       url: "https://streamyard.com/",
-  //       id: "title_4",
-  //     },
-  //     {
-  //       sponsorName: "LeadingLearners",
-  //       webp: "sponsors/other/webp/leadinglearners.webp",
-  //       src: "sponsors/other/leadinglearners.png",
-  //       url: "http://linktr.ee/leadinglearners",
-  //       id: "title_5",
-  //     },
-  //   ],
-  //   id: "4",
-  // },
 ];
