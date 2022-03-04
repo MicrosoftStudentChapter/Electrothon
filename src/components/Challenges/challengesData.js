@@ -84,4 +84,14 @@ export const challengesData = [
     prize: ["Free swags from Agora"],
     key: "cagora",
   },
+  {
+    desc: [
+      "Use Azure cloud services for your hack.",
+    ],
+    img: "sponsors/title/azure1.png",
+    webp: "sponsors/title/webp/azure1.webp",
+    link: "https://azure.microsoft.com/en-in/",
+    prize: ["Free swags and azure pass from Azure"],
+    key: "cazure",
+  },
 ];
