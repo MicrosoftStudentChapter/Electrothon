@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Timer from "../UI/CountDown/countDown";
+// import Timer from "../UI/CountDown/countDown";
 import "swiper/swiper.min.css";
 import "swiper/modules/pagination/pagination.min.css";
 
@@ -68,7 +68,7 @@ export default function Introduction() {
             </div>
           </main>
         </div>
-       <Timer />
+       {/* <Timer /> */}
       </div>
 
 
