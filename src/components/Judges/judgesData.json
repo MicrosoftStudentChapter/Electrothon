@@ -15,7 +15,7 @@
   },
   {
     "name": "Soham Parekh",
-    "image": "speakers/soham.png",
+    "image": "speakers/soham.jpeg",
     "desc": "SDE, ALAN AI",
     "insta": "",
     "linkedin": "https://www.linkedin.com/in/soham-parekh/"
@@ -26,5 +26,12 @@
     "desc": "SWE, Google",
     "insta": "",
     "linkedin": "https://www.linkedin.com/in/enigma27/"
+  },
+  {
+    "name": "Sai Sandhya Pasupuleti",
+    "image": "speakers/sai.jpeg",
+    "desc": "Member, Technical Stuff, VMWare",
+    "insta": "",
+    "linkedin": "https://www.linkedin.com/in/sai-sandhya-pasupuleti/"
   }
 ]
